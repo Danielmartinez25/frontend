@@ -20,7 +20,9 @@ export default function Home() {
             {env.NEXT_PUBLIC_BACKEND_BASE_URL}
           </h1>
         </div>
-        <Button colorScheme='blue' onClick={()=>{}}>Button</Button>
+        <Button colorScheme='blue' onClick={()=>{
+          router.push("/login")
+        }}>Button</Button>
       </main>
     </>
   );
